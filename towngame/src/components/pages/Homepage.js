@@ -16,7 +16,7 @@ export default function Homepage() {
     codeUrl: "town defense/build/town defense.wasm",
   });
 
-  console.log(unityProvider);
+  // console.log(unityProvider);
 
   // return <Unity unityProvider={unityProvider} />;
 
@@ -50,8 +50,9 @@ export default function Homepage() {
   
   return (
     <div>
-      {/* <Unity unityProvider={unityProvider} style={{width:960, height:540}} /> */}
-      <Unity unityProvider={unityProvider} style={{width:1920, height:1080}} />
+      <Unity unityProvider={unityProvider} style={{width:960, height:540}} />
+      {/* <Unity unityProvider={unityProvider} width="100%" height="100%" /> */}
+      {/* <Unity unityProvider={unityProvider} style={{width:1920, height:1080}} /> */}
     </div>
   );
 
