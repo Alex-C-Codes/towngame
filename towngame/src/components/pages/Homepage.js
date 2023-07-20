@@ -10,10 +10,10 @@ import { Unity, useUnityContext } from 'react-unity-webgl';
 
 export default function Homepage() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "town defense/build/town defense.loader.js",
-    dataUrl: "town defense/build/town defense.data",
-    frameworkUrl: "town defense/build/town defense.framework.js",
-    codeUrl: "town defense/build/town defense.wasm",
+    loaderUrl: "/town defense/build/town defense.loader.js",
+    dataUrl: "/town defense/build/town defense.data",
+    frameworkUrl: "/town defense/build/town defense.framework.js",
+    codeUrl: "/town defense/build/town defense.wasm",
   });
 
   // console.log(unityProvider);
