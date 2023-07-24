@@ -3,10 +3,10 @@ import { Unity, useUnityContext } from 'react-unity-webgl';
 
 export default function Homepage() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "/towndefense/build/towndefense.loader.js",
-    dataUrl: "/towndefense/build/towndefense.data",
-    frameworkUrl: "/towndefense/build/towndefense.framework.js",
-    codeUrl: "/towndefense/build/towndefense.wasm",
+    loaderUrl: "towndefense/build/towndefense.loader.js",
+    dataUrl: "towndefense/build/towndefense.data",
+    frameworkUrl: "towndefense/build/towndefense.framework.js",
+    codeUrl: "towndefense/build/towndefense.wasm",
   });
   
   return (
