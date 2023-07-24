@@ -6,7 +6,8 @@ export default function About() {
       <div>
           <h4>About</h4>
           <p>
-            Welcome to floppybird.io, the best place to play Floppy Bird online.
+            My name is Alex C. I code and build React.js websites and Unity games for fun.
+            {/* For any feedback or professional inquiries, please email me  */}
           </p>
       </div>
     </div>
